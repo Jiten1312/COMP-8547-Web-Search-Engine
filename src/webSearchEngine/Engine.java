@@ -18,6 +18,9 @@ public class Engine {
 			} else if (choice == 1) {
 				flag = false;
 				System.out.println("Thanks for using Web Search Engine!!");
+			} else if (choice == 2) {
+				flag = false;
+				System.out.println("Thanks for using Web Search Engine!!");
 			} else {
 				System.out.println("Please enter the valid choice");
 			}
@@ -26,7 +29,7 @@ public class Engine {
 	}
 
 	private static void showMenu() {
-		String[] options = { "Crawl the data", "Exit" };
+		String[] options = { "Crawl the data", "Word Search", "Exit" };
 		System.out.println("Please Enter the choice: ");
 
 		for (int i = 0; i < options.length; i++) {
