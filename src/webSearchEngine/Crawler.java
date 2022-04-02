@@ -36,7 +36,7 @@ public class Crawler {
 			fileWriter.close();
 		} catch (Exception e) {
 			System.out.println(e);
-			System.out.println("Exception Occured While Converting Html to Text");
+			System.out.println("Exception Occured While Converting Html to Text" + baseUrl);
 		}
 	}
 
@@ -58,18 +58,19 @@ public class Crawler {
 			} else {
 				htmlToText(baseUrl);
 				visitedLinks.add(baseUrl);
-				return true;
 			}
 		}
 		Elements fetchedLinks = currentDocument.select("a[href]");
-
 		for (org.jsoup.nodes.Element link : fetchedLinks) {
 			if (filter(link.toString())) {
 				this.fetchedLinks.add(link.absUrl("href"));
 			}
 		}
-		
 
 		return true;
+	}
+
+	public void saveUrls() {
+
 	}
 }
