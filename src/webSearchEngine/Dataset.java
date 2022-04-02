@@ -3,18 +3,17 @@ package webSearchEngine;
 import java.io.File;
 import java.util.List;
 
-
 /**
  * @author Jiten(110069329)
  *
  */
 public class Dataset {
-	private final String baseUrl = "https://www.w3schools.com/";
 	private final int threshold = 100;
 
 	public void addFiles() {
+		long startTime = 0, endTime = 0, totalTime = 0;
 		Crawler crawler = new Crawler();
-		crawler.startCrawling(baseUrl, 0);
+		crawler.startCrawling(Lib.getBaseUrl(), 0);
 
 		List<String> links = crawler.fetchedLinks;
 		deleteFiles();
@@ -23,13 +22,19 @@ public class Dataset {
 
 			if (links.get(i) != "") {
 				System.out.println("dataset: " + links.get(i));
+				startTime = System.currentTimeMillis();
 				crawler.startCrawling(links.get(i), 0);
+				endTime = System.currentTimeMillis();
+				totalTime += endTime - startTime;
 			}
 
 			if (filesH.length > this.threshold) {
 				break;
 			}
 		}
+		System.out.println("---------------------------------------------------------------------------------\n");
+		System.out.println("\nThe Crawling took  " + totalTime + " Milli Seconds to complete\n");
+		
 	}
 
 	public void deleteFiles() {
