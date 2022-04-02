@@ -1,5 +1,8 @@
 package webSearchEngine;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -7,7 +10,31 @@ import java.util.regex.Pattern;
 import processing.In;
 
 public class Scrap {
+	public void saveUrls() {
+		Crawler crawler = new Crawler();
+		crawler.startCrawling(Lib.getBaseUrl(), 0);
+		List<String> links = crawler.fetchedLinks;
+
+		try {
+			File path = new File("Resources/Url/url.txt");
+			path.delete();
+			FileWriter fileWriter = new FileWriter(path);
+
+			for (String link : links) {
+				if (link != "")
+					fileWriter.append(link + "\n");
+			}
+
+			fileWriter.close();
+
+		} catch (Exception e) {
+			System.out.println(e);
+		}
+
+	}
+
 	public void scrapUrlPattern() {
+		saveUrls();
 		System.out.println("Enter the pattern you want to search in urls");
 		Scanner sc = new Scanner(System.in);
 		String urlPattern = sc.nextLine();

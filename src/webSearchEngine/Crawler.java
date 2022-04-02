@@ -35,8 +35,7 @@ public class Crawler {
 			fileWriter.write(document.html());
 			fileWriter.close();
 		} catch (Exception e) {
-			System.out.println(e);
-			System.out.println("Exception Occured While Converting Html to Text" + baseUrl);
+//			System.out.println(e);
 		}
 	}
 
@@ -68,9 +67,5 @@ public class Crawler {
 		}
 
 		return true;
-	}
-
-	public void saveUrls() {
-
 	}
 }

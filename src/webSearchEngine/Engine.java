@@ -17,7 +17,7 @@ public class Engine {
 				System.out.println("Crawling started");
 				Dataset dataset = new Dataset();
 				dataset.addFiles();
-				crawler.startCrawling("https://www.w3schools.com/", 0);
+				crawler.startCrawling(Lib.getBaseUrl(), 0);
 				System.out.println("Crawling done");
 			} else if (choice == 1) {
 				WordSearch.search();
