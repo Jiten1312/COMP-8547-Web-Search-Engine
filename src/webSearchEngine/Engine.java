@@ -14,8 +14,12 @@ public class Engine {
 			int choice = sc.nextInt();
 			if (choice == 0) {
 				Crawler crawler = new Crawler();
+				System.out.println("Crawling started");
 				crawler.startCrawling("https://www.w3schools.com/", 0);
+				System.out.println("Crawling done");
 			} else if (choice == 1) {
+				WordSearch.search();
+			} else if (choice == 2) {
 				flag = false;
 				System.out.println("Thanks for using Web Search Engine!!");
 			} else if (choice == 2) {
