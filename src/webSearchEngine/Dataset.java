@@ -12,11 +12,12 @@ public class Dataset {
 
 	public void addFiles(String baseUrl) {
 		long startTime = 0, endTime = 0, totalTime = 0;
+		deleteFiles();
 		Crawler crawler = new Crawler();
 		crawler.startCrawling(baseUrl, 0);
 
 		List<String> links = crawler.fetchedLinks;
-		deleteFiles();
+		
 		for (int i = 0; i < links.size(); i++) {
 			File[] filesH = new File("Resources/Html").listFiles();
 

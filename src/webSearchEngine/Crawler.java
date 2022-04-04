@@ -13,7 +13,10 @@ import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
 /**
- * Web crawler takes URL as input.From there, the web crawler will follow each new link it finds on that page and extracts content for ingestion into the Search engine
+ * Web crawler takes URL as input.From there, the web crawler will follow each
+ * new link it finds on that page and extracts content for ingestion into the
+ * Search engine
+ * 
  * @author Jiten
  *
  */
@@ -30,19 +33,19 @@ public class Crawler {
 					.get();
 			if (document == null) {
 				System.out.println("Invalid URL");
-				return;
+			} else {
+				this.currentDocument = document;
+				String txtDestination = "Resources/Text/" + document.title() + ".txt";
+				FileWriter fileWriter = new FileWriter(txtDestination);
+				fileWriter.write(document.body().text());
+				fileWriter.close();
+
+				String htmDestination = "Resources/Html/" + document.title() + ".htm";
+				fileWriter = new FileWriter(htmDestination);
+
+				fileWriter.write(document.html());
+				fileWriter.close();
 			}
-			this.currentDocument = document;
-			String txtDestination = "Resources/Text/" + document.title() + ".txt";
-			FileWriter fileWriter = new FileWriter(txtDestination);
-			fileWriter.write(document.body().text());
-			fileWriter.close();
-
-			String htmDestination = "Resources/Html/" + document.title() + ".htm";
-			fileWriter = new FileWriter(htmDestination);
-
-			fileWriter.write(document.html());
-			fileWriter.close();
 
 		} catch (Exception e) {
 			System.out.println("Invalid URL");
