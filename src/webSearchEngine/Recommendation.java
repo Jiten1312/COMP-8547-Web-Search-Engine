@@ -112,7 +112,8 @@ public class Recommendation {
 			}
 	}
 
-	// editDistance() method takes edit distance and compare the nearest distance among keyword and similar patterns obtained
+	// editDistance() method takes two strings and finds edit distance and compare 
+	// the nearest distance among keyword and similar patterns obtained
 	public static int editDistance(String str1, String str2) {
 		int len1 = str1.length();
 		int len2 = str2.length();
