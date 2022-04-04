@@ -26,7 +26,8 @@ public class Engine {
 				scrap.scrapUrlPattern();
 			} else if (choice == 4) {
 				PageRanking.searchWord();
-			} else if (choice == 5) {
+			}
+			 else if (choice == 6) {
 				flag = false;
 				System.out.println("Thanks for using Web Search Engine!!");
 			} else {

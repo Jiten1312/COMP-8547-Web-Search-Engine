@@ -77,13 +77,20 @@ public class WordSearch {
 						wordInFiles++;
 						System.out.println("Number of time the word " + word + " repeated in the file " + fileList[i]
 								+ "= " + wordFrequency);
-						System.out
-						.println("------------------------------------------------------------------------------------------------\n");
+						System.out.println(
+								"------------------------------------------------------------------------------------------------\n");
 					}
 					fileNumber++;
 				}
-				System.out.println("Total number of time the word " + word + " repeated = " + wordInFiles);
+
+				System.out.println("\nTotal number of time the word " + word + " repeated = " + wordInFiles);
 				long endSearchTime = System.currentTimeMillis();
+				
+				// If no file contains the word then it suggests other strings as suggestions
+				if (wordInFiles == 0) {
+					Recommendation.recommendations(word);
+				}
+
 				System.out.println("\n\n\t\t\tThe search took  " + (endSearchTime - startSearchTime)
 						+ " Milli Seconds to complete");
 				System.out
