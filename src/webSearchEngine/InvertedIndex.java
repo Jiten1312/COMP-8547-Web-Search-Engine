@@ -1,4 +1,5 @@
 package webSearchEngine;
+
 import java.io.*;
 import java.util.*;
 
@@ -9,102 +10,79 @@ import java.util.*;
  * The search index can be in memory. 
  */
 
-public class InvertedIndex
-{
-		public static String dirPath = "Resources/Text";
-	    Map<Integer,String> sources;
-	    HashMap<String, HashSet<Integer>> index;
+/**
+ * @author Kenil(110077576)
+ *
+ */
+public class InvertedIndex {
+	Map<Integer, String> sources;
+	HashMap<String, HashSet<Integer>> index;
 
-	    InvertedIndex()
-	    {
-	        sources = new HashMap<Integer,String>();
-	        index = new HashMap<String, HashSet<Integer>>();
-	    }
+	InvertedIndex() {
+		sources = new HashMap<Integer, String>();
+		index = new HashMap<String, HashSet<Integer>>();
+	}
 
-	    public void buildIndex(String[] files)
-	    {
-	        int i = 0;
-	        for(String fileName:files)
-	        {            
-	            try(BufferedReader file = new BufferedReader(new FileReader(dirPath+"/"+fileName)))
-	            {
-	                sources.put(i,fileName);
-	                String ln;
-	                while((ln = file.readLine())!=null) 
-	                {
-	                    String[] words = ln.split("\\W+");
-	                    for(String word:words)
-	                    {
-	                        word = word.toLowerCase();
-	                        if (!index.containsKey(word))
-	                            index.put(word, new HashSet<Integer>());
-	                        index.get(word).add(i);
-	                    }
-	                }
-	            } catch (IOException e)
-	            {
-	                System.out.println("File "+fileName+" not found. Skip it");
-	            }
-	            i++;
-	        }       
-	    }
-
-	    public ArrayList<String> find(String phrase)
-	    {
-	    	ArrayList<String> fileNames;
-	    	try {
-		    		fileNames = new ArrayList<String>();
-			        String[] words = phrase.split("\\W+");
-			        String hashKey = words[0].toLowerCase();
-			        if(index.get(hashKey) == null) {
-			        	 System.out.println("Not found.");
-			        	return null;
-		        }
-		        HashSet<Integer> res = new HashSet<Integer>(index.get(hashKey));
-		        for(String word: words)
-		        {
-		            res.retainAll(index.get(word));
-		        }
-		
-		        if(res.size()==0) 
-		        {
-		            System.out.println("Not found.");
-		            return null;
-		        }
-		        for(int num : res)
-		        {
-		        	fileNames.add(sources.get(num));
-		        }
-	    	}catch(Exception e) 
-	    	{
-	    		 System.out.println("Phrase Not Found");
-	    		 System.out.println("Exception Occurred:" + e.getMessage());
-	    		 return null;
-	    	}  
-	    return fileNames;
-	    }
-
-		public static void main(String args[])
-		{	
-			File testDir = new File(dirPath);
-			String[] testFiles = testDir.list();
-			ArrayList<String> fileNames = new ArrayList<String>();
-			InvertedIndex index = new InvertedIndex();
-	        int c = 0;
-	        index.buildIndex(testFiles);
-
-	        System.out.println("Enter the Phrase to Search: ");
-	        Scanner input = new Scanner(System.in);
-	        String phrase = input.next();
-	        fileNames =  index.find(phrase);
-	        
-	        Iterator<String> itrator = fileNames.iterator();
-			while(itrator.hasNext()) 
-			{
-				c++;
-				System.out.println(c + ") " + itrator.next()+" ");
-			}	
-	        input.close();
+	/**
+	 * This method will read provided files and generate index using HashSet
+	 * 
+	 * @param files
+	 */
+	public void buildIndex(File[] files) {
+		int i = 0;
+		for (File file : files) {
+			try (BufferedReader thisfile = new BufferedReader(new FileReader(file.getAbsoluteFile()))) {
+				sources.put(i, file.getName());
+				String ln;
+				while ((ln = thisfile.readLine()) != null) {
+					String[] strings = ln.split("\\W+");
+					for (String string : strings) {
+						string = string.toLowerCase();
+						if (!index.containsKey(string))
+							index.put(string, new HashSet<Integer>());
+						index.get(string).add(i);
+					}
+				}
+			} catch (IOException e) {
+				System.out.println(file + "NOT FOUND");
+			}
+			i++;
 		}
-}
+	}
 
+	/**
+	 * 
+	 * @param phrase
+	 * @return ArrayList of files having phrase
+	 */
+	public ArrayList<String> find(String phrase) {
+		ArrayList<String> fileNames;
+		try {
+			fileNames = new ArrayList<String>();
+			String[] words = phrase.split("\\W+");
+			String hashKey = words[0].toLowerCase();
+			if (index.get(hashKey) == null) {
+				System.out.println("Not found.");
+				return null;
+			}
+			HashSet<Integer> res = new HashSet<Integer>(index.get(hashKey));
+			for (String word : words) {
+				res.retainAll(index.get(word));
+			}
+
+			if (res.size() == 0) {
+				System.out.println("Not found.");
+				return null;
+			}
+			for (int num : res) {
+				fileNames.add(sources.get(num));
+			}
+		} catch (Exception e) {
+			System.out.println("Phrase Not Found");
+			System.out.println("Exception Occurred:" + e.getMessage());
+			return null;
+		}
+		return fileNames;
+	}
+
+}

@@ -8,26 +8,25 @@ public class Engine {
 
 		boolean flag = true;
 		Scanner sc = new Scanner(System.in);
-
+		String baseUrl = "https://www.w3schools.com/";
 		do {
 			showMenu();
 			int choice = sc.nextInt();
 			if (choice == 1) {
+				baseUrl = Lib.getBaseUrl();
 				Crawler crawler = new Crawler();
 				System.out.println("Crawling started");
 				Dataset dataset = new Dataset();
-				dataset.addFiles();
-				crawler.startCrawling(Lib.getBaseUrl(), 0);
+				dataset.addFiles(baseUrl);
 				System.out.println("Crawling done");
 			} else if (choice == 2) {
 				WordSearch.search();
 			} else if (choice == 3) {
 				Scrap scrap = new Scrap();
-				scrap.scrapUrlPattern();
+				scrap.scrapUrlPattern(baseUrl);
 			} else if (choice == 4) {
 				PageRanking.searchWord();
-			}
-			 else if (choice == 6) {
+			} else if (choice == 6) {
 				flag = false;
 				System.out.println("Thanks for using Web Search Engine!!");
 			} else {

@@ -10,10 +10,10 @@ import java.util.List;
 public class Dataset {
 	private final int threshold = 100;
 
-	public void addFiles() {
+	public void addFiles(String baseUrl) {
 		long startTime = 0, endTime = 0, totalTime = 0;
 		Crawler crawler = new Crawler();
-		crawler.startCrawling(Lib.getBaseUrl(), 0);
+		crawler.startCrawling(baseUrl, 0);
 
 		List<String> links = crawler.fetchedLinks;
 		deleteFiles();
@@ -34,7 +34,6 @@ public class Dataset {
 		}
 		System.out.println("---------------------------------------------------------------------------------\n");
 		System.out.println("\nThe Crawling took  " + totalTime + " Milli Seconds to complete\n");
-		
 	}
 
 	public void deleteFiles() {

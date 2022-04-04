@@ -1,0 +1,94 @@
+Skip to content Tutorials Practice DS & Algo. Must Do Questions DSA Topic-wise DSA Company-wise Algorithms Analysis of Algorithms Asymptotic Analysis Worst, Average and Best Cases Asymptotic Notations Little o and little omega notations Lower and Upper Bound Theory Analysis of Loops Solving Recurrences Amortized Analysis What does 'Space Complexity' mean ? Pseudo-polynomial Algorithms Polynomial Time Approximation Scheme A Time Complexity Question Searching Algorithms Sorting Algorithms Graph Algorithms Pattern Searching Geometric Algorithms Mathematical Bitwise Algorithms Randomized Algorithms Greedy Algorithms Dynamic Programming Divide and Conquer Backtracking Branch and Bound All Algorithms Data Structures Arrays Linked List Stack Queue Binary Tree Binary Search Tree Heap Hashing Graph Advanced Data Structure Matrix Strings All Data Structures Interview Corner Company Preparation Top Topics Practice Company Questions Interview Experiences Experienced Interviews Internship Interviews Competititve Programming Design Patterns System Design Tutorial Multiple Choice Quizzes Languages C C++ Java Python C# JavaScript jQuery SQL PHP Scala Perl Go Language HTML CSS Kotlin CS Subjects Mathematics Operating System DBMS Computer Networks Computer Organization and Architecture Theory of Computation Compiler Design Digital Logic Software Engineering GATE GATE Computer Science Notes Last Minute Notes GATE CS Solved Papers GATE CS Original Papers and Official Keys GATE 2021 Dates GATE CS 2021 Syllabus Important Topics for GATE CS Web Technologies HTML CSS JavaScript AngularJS ReactJS NodeJS Bootstrap jQuery PHP Software Designs Software Design Patterns System Design Tutorial School Learning School Programming Mathematics Number System Algebra Trigonometry Statistics Probability Geometry Mensuration Calculus Maths Notes (Class 8-12) Class 8 Notes Class 9 Notes Class 10 Notes Class 11 Notes Class 12 Notes NCERT Solutions Class 8 Maths Solution Class 9 Maths Solution Class 10 Maths Solution Class 11 Maths Solution Class 12 Maths Solution RD Sharma Solutions Class 8 Maths Solution Class 9 Maths Solution Class 10 Maths Solution Class 11 Maths Solution Class 12 Maths Solution Physics Notes (Class 8-11) Class 8 Notes Class 9 Notes Class 10 Notes Class 11 Notes CS Exams/PSUs ISRO ISRO CS Original Papers and Official Keys ISRO CS Solved Papers ISRO CS Syllabus for Scientist/Engineer Exam UGC NET UGC NET CS Notes Paper II UGC NET CS Notes Paper III UGC NET CS Solved Papers Student Campus Ambassador Program School Ambassador Program Project Geek of the Month Campus Geek of the Month Placement Course Competititve Programming Testimonials Geek on the Top Careers Internship Jobs Apply for Jobs Post a Job JOB-A-THON Events Courses Write Come write articles for us and get featured Practice Learn and code with the best industry experts Premium Get access to ad-free content, doubt assistance and more! Jobs Come and find your dream job with us Geeks Digest Quizzes Geeks Campus Gblog Articles IDE Campus Mantri Home Saved Videos Courses GBlog Puzzles What's New ? Change Language Data Structures Algorithms Interview Preparation Topic-wise Practice C++ Java Python Competitive Programming Machine Learning Web Development SDE Sheet Puzzles GFG School Projects Related Articles ? Table of Contents HTML Basics HTML HTML Introduction HTML full form HTML Editors HTML Comments HTML Basics HTML | Layout HTML Elements HTML Heading HTML Paragraphs HTML Text Formatting HTML | Quotations HTML | Color Styles and HSL HTML | Links HTML Images HTML Tables HTML Lists HTML Block and Inline Elements HTML Iframes HTML | File Paths HTML | Viewport meta tag for Responsive Web Design HTML | Computer Code Elements HTML Entities HTML | Charsets HTML | URL Encoding HTML | Deprecated Tags HTML Tags HTML Doctypes HTML <a> Tag HTML abbr Tag HTML acronym Tag HTML <address> Tag HTML applet Tag HTML <area> Tag HTML5 <article> Tag HTML5 <aside> Tag HTML5 <audio> Tag HTML <b> Tag HTML <base> Tag HTML <basefont> Tag HTML Tags Complete Reference HTML Attributes HTML Attributes HTML | <input> accept Attribute HTML | <form> accept-charset Attribute HTML | accesskey Attribute HTML| action Attribute HTML align Attribute HTML | alt attribute HTML | <script> async Attribute HTML input autocomplete Attribute HTML | <form> autocomplete Attribute HTML autofocus Attribute HTML | <input> autofocus Attribute HTML | <button> autofocus Attribute HTML | <textarea> autofocus Attribute HTML Attributes Complete Reference HTML Graphics HTML SVG-Basics HTML Canvas Basics HTML APIs HTML Geolocation HTML Drag and Drop HTML DOM DOM (Document Object Model) HTML | DOM activeElement Property HTML | DOM anchors Collection HTML | DOM close() Method HTML | DOM baseURI Property HTML | DOM body Property HTML | DOM createAttribute() Method HTML | DOM doctype Property HTML | DOM writeln() Method HTML | DOM console.error() Method HTML DOM URL Property HTML DOM embeds Collection HTML | DOM console.warn() Method HTML | DOM console.trace() Method HTML DOM Complete Reference HTML Audio/Video HTML | DOM Audio Object HTML | DOM Video Object HTML | DOM Video canPlayType( ) Method HTML | DOM Audio audioTracks Property HTML | DOM Audio autoplay Property HTML | DOM Audio buffered Property HTML | DOM Audio controls Property HTML | DOM Audio currentSrc Property HTML | DOM Audio currentTime Property HTML | DOM Audio defaultMuted Property HTML | DOM Audio defaultPlaybackRate Property HTML | DOM Audio duration Property HTML | DOM Audio ended Property HTML | DOM Audio loop Property HTML DOM Audio/Video Complete Reference HTML 5 HTML5 | Introduction HTML | Spell Check HTML5 Complete Reference HTML 5 MathML HTML5 | MathML Introduction HTML5 | MathML <maction> tag HTML5 | MathML <math> tag HTML5 | MathML <menclose> Tag HTML5 | MathML <merror> Tag HTML5 | MathML <mfenched> tag HTML5 | MathML <mfrac> tag HTML5 | MathML <mglyph> Tag HTML5 | MathML <mi> Tag HTML5 | MathML <mlabeledtr> tag HTML5 | MathML <mmultiscripts> Tag HTML5 | MathML <mn> Tag HTML5 | MathML <mo> Tag HTML5 | MathML <mover> Tag HTML5 | MathML <mpadded> Tag HTML5 MathML Complete Reference HTML Course Introduction to HTML CSS | Learn to Design your First Website in Just 1 Week HTML Course | Structure of an HTML Document HTML Course | First Web Page | Printing Hello World HTML Course | Basics of HTML HTML Course – Starting the Project | Creating Directories HTML Course | Understanding and Building Project Structure HTML Course | Creating Navigation Menu HTML Course | Building Header of the Website HTML Course | Building Main Content – Section 1 HTML Course | Building Main Content – Section 2 HTML course | Building Main Content – Section 3 HTML Course | Building Footer HTML Course | Practice Quiz 1 HTML Course | Practice Quiz 2 HTML Questions Create a Sticky Social Media Bar using HTML and CSS Create a Search Bar using HTML and CSS How to create Right Aligned Menu Links using HTML and CSS ? How to add a Login Form to an Image using HTML and CSS ? How to Create a Tab Image Gallery ? How to create a Hero Image using HTML and CSS ? How to design Meet the Team Page using HTML and CSS ? How to Create an Image Overlay Icon using HTML and CSS ? How to Create Browsers Window using HTML and CSS ? How to Create Breadcrumbs using HTML and CSS ? How to Create Section Counter using HTML and CSS ? How to Create Toggle Switch by using HTML and CSS ? How to Create a Cutout Text using HTML and CSS ? How to make a Pagination using HTML and CSS ? Table of Contents HTML Basics HTML HTML Introduction HTML full form HTML Editors HTML Comments HTML Basics HTML | Layout HTML Elements HTML Heading HTML Paragraphs HTML Text Formatting HTML | Quotations HTML | Color Styles and HSL HTML | Links HTML Images HTML Tables HTML Lists HTML Block and Inline Elements HTML Iframes HTML | File Paths HTML | Viewport meta tag for Responsive Web Design HTML | Computer Code Elements HTML Entities HTML | Charsets HTML | URL Encoding HTML | Deprecated Tags HTML Tags HTML Doctypes HTML <a> Tag HTML abbr Tag HTML acronym Tag HTML <address> Tag HTML applet Tag HTML <area> Tag HTML5 <article> Tag HTML5 <aside> Tag HTML5 <audio> Tag HTML <b> Tag HTML <base> Tag HTML <basefont> Tag HTML Tags Complete Reference HTML Attributes HTML Attributes HTML | <input> accept Attribute HTML | <form> accept-charset Attribute HTML | accesskey Attribute HTML| action Attribute HTML align Attribute HTML | alt attribute HTML | <script> async Attribute HTML input autocomplete Attribute HTML | <form> autocomplete Attribute HTML autofocus Attribute HTML | <input> autofocus Attribute HTML | <button> autofocus Attribute HTML | <textarea> autofocus Attribute HTML Attributes Complete Reference HTML Graphics HTML SVG-Basics HTML Canvas Basics HTML APIs HTML Geolocation HTML Drag and Drop HTML DOM DOM (Document Object Model) HTML | DOM activeElement Property HTML | DOM anchors Collection HTML | DOM close() Method HTML | DOM baseURI Property HTML | DOM body Property HTML | DOM createAttribute() Method HTML | DOM doctype Property HTML | DOM writeln() Method HTML | DOM console.error() Method HTML DOM URL Property HTML DOM embeds Collection HTML | DOM console.warn() Method HTML | DOM console.trace() Method HTML DOM Complete Reference HTML Audio/Video HTML | DOM Audio Object HTML | DOM Video Object HTML | DOM Video canPlayType( ) Method HTML | DOM Audio audioTracks Property HTML | DOM Audio autoplay Property HTML | DOM Audio buffered Property HTML | DOM Audio controls Property HTML | DOM Audio currentSrc Property HTML | DOM Audio currentTime Property HTML | DOM Audio defaultMuted Property HTML | DOM Audio defaultPlaybackRate Property HTML | DOM Audio duration Property HTML | DOM Audio ended Property HTML | DOM Audio loop Property HTML DOM Audio/Video Complete Reference HTML 5 HTML5 | Introduction HTML | Spell Check HTML5 Complete Reference HTML 5 MathML HTML5 | MathML Introduction HTML5 | MathML <maction> tag HTML5 | MathML <math> tag HTML5 | MathML <menclose> Tag HTML5 | MathML <merror> Tag HTML5 | MathML <mfenched> tag HTML5 | MathML <mfrac> tag HTML5 | MathML <mglyph> Tag HTML5 | MathML <mi> Tag HTML5 | MathML <mlabeledtr> tag HTML5 | MathML <mmultiscripts> Tag HTML5 | MathML <mn> Tag HTML5 | MathML <mo> Tag HTML5 | MathML <mover> Tag HTML5 | MathML <mpadded> Tag HTML5 MathML Complete Reference HTML Course Introduction to HTML CSS | Learn to Design your First Website in Just 1 Week HTML Course | Structure of an HTML Document HTML Course | First Web Page | Printing Hello World HTML Course | Basics of HTML HTML Course – Starting the Project | Creating Directories HTML Course | Understanding and Building Project Structure HTML Course | Creating Navigation Menu HTML Course | Building Header of the Website HTML Course | Building Main Content – Section 1 HTML Course | Building Main Content – Section 2 HTML course | Building Main Content – Section 3 HTML Course | Building Footer HTML Course | Practice Quiz 1 HTML Course | Practice Quiz 2 HTML Questions Create a Sticky Social Media Bar using HTML and CSS Create a Search Bar using HTML and CSS How to create Right Aligned Menu Links using HTML and CSS ? How to add a Login Form to an Image using HTML and CSS ? How to Create a Tab Image Gallery ? How to create a Hero Image using HTML and CSS ? How to design Meet the Team Page using HTML and CSS ? How to Create an Image Overlay Icon using HTML and CSS ? How to Create Browsers Window using HTML and CSS ? How to Create Breadcrumbs using HTML and CSS ? How to Create Section Counter using HTML and CSS ? How to Create Toggle Switch by using HTML and CSS ? How to Create a Cutout Text using HTML and CSS ? How to make a Pagination using HTML and CSS ? HTML Last Updated : 01 Apr, 2022 What is HTML ? HTML stands for HyperText Markup Language. It is used to design web pages using the markup language. HTML is the combination of Hypertext and Markup language. Hypertext defines the link between the web pages and markup language defines the text document within the tag that define the structure of web pages. What is HTML used for ? HTML is used to create the structure of web pages that are displayed on the World Wide Web (www). It contains Tags and Attributes that are used to design the web pages. Also, we can link multiple pages using Hyperlinks. HTML Basic Format Page Structure The basic structure of an HTML page is laid out below. It contains the essential building-block elements (i.e. doctype declaration, HTML, head, title, and body elements) upon which all web pages are created. <DOCTYPE! html> – A doctype or document type declaration is an instruction that tells the web browser about the markup language in which the current page is written. It is not an element or tag. The doctype declaration is not case-sensitive. <html> – This tag is used to define the root element of HTML document. This tag tells the browser that it is an HTML document. It is the second outer container element that contains all other elements within it. <head> – This tag is used to define the head portion of the HTML document that contains information related to the document. Elements within the head tag are not visible on the front-end of a webpage. <body> – The body tag is used to enclose all the visible content of a webpage. In other words, the body content is what the browser will show on the front end. Example 1: This is the basic example of HTML that display the heading and paragraph content. HTML 
+<!DOCTYPE html>
+<html>
+
+<!-- Head Section content -->
+<head>
+
+    <!-- Page title -->
+    <title>Basic Web Page</title>
+</head>
+
+<!-- Body Section content -->
+<body>
+
+    <!-- Used to display heading content -->
+    <h1>Welcome to GeeksforGeeks</h1>
+
+    <!-- Used to display paragrapg content -->
+    <p>A computer science portal for geeks</p>
+</body>
+
+</html>
+ Output: Example 2: This example describes how to create a simple form using HTML. To create a form, we will use <form> tag and inside form tag, we will use some input fields and label elements to display the form. HTML 
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head Section Content -->
+<head>
+
+    <!-- Page title -->
+    <title>Basic form design using HTML</title>
+</head>
+
+<!-- Body Section Content -->
+<body>
+
+    <!-- Heading Content -->
+    <h1>GeeksforGeeks</h1>
+
+    <h3>Basic form design using HTML</h3>
+
+    <!-- Creating a from --> 
+    <form action="#">
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <!-- Label and input field -->
+            <p>
+                <label>First name : <input name="firstName" /></label>
+            </p>
+
+            <p>
+                <label>Last name : <input name="lastName" /></label>
+            </p>
+
+            <!-- Label and radio button field -->
+            <p>
+                Gender :
+                <label><input type="radio" name="gender" 
+                    value="male" /> Male</label>
+
+                <label><input type="radio" name="gender" 
+                    value="female" /> Female</label>
+            </p>
+
+            <p>
+                <label>Email : <input type="email" 
+                    name="email" /></label>
+            </p>
+
+            <p>
+                <label>Date of Birth : <input type="date" 
+                    name="birthDate"></label>
+            </p>
+
+            <!-- Label and textarea field -->
+            <p>
+                <label>Address :
+                    <br />
+                    <textarea name="address" cols="30" 
+                        rows="3"></textarea>
+                </label>
+            </p>
+
+            <!-- Creating a button -->
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+        </fieldset>
+    </form>
+</body>
+
+</html>
+ Output: Online Course | Web Design for Beginners: A beginner-level course for the curious Geek inside you! Here you will be learning all that there is to know about Web designing from scratch! HTML Questions: Please go through this link to see the wide collection of question based examples. These examples are categorized based on the topics including hyperlinks, forms, tables, frames, and many more. Learn more about HTML: Introduction HTML5 Introduction Structure of HTML Document Design your First Website in Just 1 Week Most commonly used HTML tags Form Design Simple Portfolio Website Design Design a Portfolio Gallery Design a web page Complete References: Tags Complete Reference Attributes Complete Reference DOM Complete Reference DOM Audio/Video Complete Reference HTML5 Complete Reference HTML5 MathML Complete Reference Questions Complete Reference Quiz Set: Practice Quiz 1 Practice Quiz 2 HTML Interview Questions Recent Articles If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to review-team@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above. My Personal Notes arrow_drop_up Save Writing code in comment? Please use ide.geeksforgeeks.org, generate link and share the link here. Load Comments Comments Old Comments What's New Geeks Summer Carnival 2022 View Details Data Structures & Algorithms- Self Paced Course View Details Complete Interview Preparation View Details Most Popular Articles Best Time to Buy and Sell Stock Must Do Coding Questions for Product Based Companies Axios in React: A Guide for Beginners Implementation of Bit Stuffing and Bit Destuffing Python OpenCV - waitKey() Function Most Visited Articles Pandas - Plot multiple time series DataFrame into a single plot Create a Telegram Bot using Python How to get current route in Next.js ? Flutter - DropDownButton Widget How to Develop User Registration Form in ReactJS ? × 5th Floor, A-118, Sector-136, Noida, Uttar Pradesh - 201305 feedback@geeksforgeeks.org Company About Us Careers In Media Contact Us Privacy Policy Copyright Policy Learn Algorithms Data Structures SDE Cheat Sheet Machine learning CS Subjects Video Tutorials News Top News Technology Work & Career Business Finance Lifestyle Languages Python Java CPP Golang C# SQL Web Development Web Tutorials Django Tutorial HTML CSS JavaScript Bootstrap Contribute Write an Article Improve an Article Pick Topics to Write Write Interview Experience Internships Video Internship @geeksforgeeks , Some rights reserved We use cookies to ensure you have the best browsing experience on our website. By using our site, you acknowledge that you have read and understood our Cookie Policy & Privacy Policy Got It ! Start Your Coding Journey Now! Login Register

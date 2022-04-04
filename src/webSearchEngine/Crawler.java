@@ -12,6 +12,11 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
+/**
+ * Web crawler takes URL as input.From there, the web crawler will follow each new link it finds on that page and extracts content for ingestion into the Search engine
+ * @author Jiten
+ *
+ */
 public class Crawler {
 
 	public List<String> visitedLinks = new ArrayList<String>();
@@ -23,6 +28,10 @@ public class Crawler {
 			final String userAgent = "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/25.0";
 			Document document = Jsoup.connect(baseUrl).userAgent(userAgent).timeout(10 * 1000).ignoreHttpErrors(true)
 					.get();
+			if (document == null) {
+				System.out.println("Invalid URL");
+				return;
+			}
 			this.currentDocument = document;
 			String txtDestination = "Resources/Text/" + document.title() + ".txt";
 			FileWriter fileWriter = new FileWriter(txtDestination);
@@ -34,8 +43,10 @@ public class Crawler {
 
 			fileWriter.write(document.html());
 			fileWriter.close();
+
 		} catch (Exception e) {
-//			System.out.println(e);
+			System.out.println("Invalid URL");
+
 		}
 	}
 
@@ -59,13 +70,16 @@ public class Crawler {
 				visitedLinks.add(baseUrl);
 			}
 		}
-		Elements fetchedLinks = currentDocument.select("a[href]");
-		for (org.jsoup.nodes.Element link : fetchedLinks) {
-			if (filter(link.toString())) {
-				this.fetchedLinks.add(link.absUrl("href"));
+		if (currentDocument != null) {
+			Elements fetchedLinks = currentDocument.select("a[href]");
+			for (org.jsoup.nodes.Element link : fetchedLinks) {
+				if (filter(link.toString())) {
+					this.fetchedLinks.add(link.absUrl("href"));
+				}
 			}
 		}
 
 		return true;
 	}
+
 }
